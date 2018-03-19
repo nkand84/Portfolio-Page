@@ -1,0 +1,182 @@
+*{
+    /* margin:0;
+    padding:0; */
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/greyfloral.png");
+    background-position: center;
+    height:auto;
+    color: #777;
+}
+/* ----------------------HEADER---------------- */
+header{
+    width: 100%;
+    background-color: #fff;
+    height: 80px;
+    border-bottom:2px solid #ccc;
+}
+/* ----------------------HEADINGS---------------- */
+h1,h2{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+h1{
+    float:left;
+    font-variant: small-caps;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 80px;
+    margin-left: 150px;
+    font-weight:700;
+    color: #fff;
+    padding:25px 0px 0px 10px; 
+    font-size: 25px;
+      
+}
+/* header::after{
+   content: "";
+   display:table;
+   clear:both;
+} */
+h2{
+    color:  #4aaaa5;
+    font-size:30px;
+    font-weight:700;
+    margin-bottom: 25px;
+    font-variant: small-caps;
+}
+hr{
+    background-color: rgb(240, 230, 230);
+    border:0;
+    height: 3px;
+}
+/* ----------------------NAV BAR---------------- */
+nav{
+    float: right;
+    
+}
+nav ul{
+    list-style-type: none;
+   
+}
+nav ul li{
+    display:inline-block;
+    margin-right:30px;
+    padding-top:30px;
+    
+}
+nav ul li a:link,a:visited{
+    text-decoration: none;
+    color: #777;
+    border-right: 2px solid #777;
+    padding-right:30px;
+    
+}
+#last-one{
+    border-right: none;
+}
+nav ul li a:hover{
+    color: #4aaaa5;
+}
+/* ----------------------CONTENT---------------- */
+.main{
+    clear:both;
+    height:auto;
+    margin: 0 auto;
+    background-color: #fff;
+    max-width:960px;
+    margin-top:50px;
+    padding: 30px;
+    overflow:hidden;
+ 
+}
+.content{
+    margin-top:20px;
+    
+}
+#personal{
+    width:200px;
+    height:200px;
+    float:left;
+    margin-right:20px;
+    margin-top:12px;
+}
+
+/* ----------------------IMAGES---------------- */
+
+.content img{
+    width: 100%;
+    height: 100%;
+    float:left;
+    margin-right:50px;
+}
+.image{
+    display:inline-block;
+    position: relative;
+    margin-bottom: 30px;
+}
+.image img{
+    width:300px;
+    height:200px;
+}
+.text{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #fff;
+    width: 300px;
+    height:50px;
+    text-align: center;
+    z-index: 100;
+    padding:15px;
+    top:140px;
+}
+/* ------------------------------------------------------------------------------- */
+p{
+    text-align: justify;
+    line-height: 200%;
+    letter-spacing: 1px;
+}
+#special{
+    color:  #4aaaa5;
+} 
+/* ----------------------FOOTER---------------- */
+footer{
+    width: 100%;
+    clear:both;
+    height: 80px;
+    background-color: #666;
+    border-top:8px solid #4aaaa5;
+    margin-top:40px;
+    font-size:12px;
+ 
+}
+footer p{
+    color: #fff;
+    padding-top: 25px;
+    text-align: center;
+    
+}
+/* ----------------------FORM---------------- */
+form, .form-control input,textarea{
+    width: 100%;
+    padding:5px;
+    font-size:15px;
+}
+textarea{
+    height:200px;
+}
+.submit-btn{
+    background-color: #4aaaa5;
+    padding:10px;
+    width:100px;
+    border-radius:5px;
+    border:0;
+    color: #fff;
+    font-size: 16px;
+}
+.submit-btn:hover{
+    background-color: #367975;
+   
+}
