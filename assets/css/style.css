@@ -21,7 +21,7 @@ body {
 h1{
     float:left;
     font-variant: small-caps;
-    background-color: #4aaaa5;
+    background-color: #ff8c00;
     width: 250px;
     height: 50px;
     font-weight:700;
@@ -32,7 +32,7 @@ h1{
 h2,h4{
     
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color:  #4aaaa5;
+    color:  #ff8c00;
     font-size:25px;
     font-weight:700;
     margin-bottom: 10px;
@@ -89,7 +89,7 @@ a:link, a:visited{
     letter-spacing: 1px;
 }
 #special{
-    color:  #4aaaa5;
+    color:  #ff8c00;
     margin-top:20px;
    
 } 
@@ -116,7 +116,7 @@ a:link, a:visited{
 }
 .image-text{
     position: absolute;
-    background-color: #4aaaa5;
+    background-color: #ff8c00;
     color: #fff;
     width: 300px;
     height:50px;
@@ -132,7 +132,7 @@ footer{
     width: 100%;
     height: 60px;
     background-color: #666;
-    border-top:10px solid #4aaaa5;
+    border-top:10px solid #ff8c00;
     font-size:12px;
     bottom:0;
    
